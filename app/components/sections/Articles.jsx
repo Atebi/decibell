@@ -194,7 +194,7 @@ const Articles = () => {
         <div className="w-full rounded-lg border-2 border-blueLightGrey/40">
           <div className="rounded-t-lg bg-lightGrey">
             <Image
-              src="/songWriterBoy.webp"
+              src="/songwriterBoy.webp"
               alt="decibell hero image"
               // placeholder="blur"
               priority={true}

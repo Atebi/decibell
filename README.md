@@ -1,15 +1,14 @@
 <img src="./img/deci_hero.webp">
 
-# <p align="center">Decibell</p>
+# <p align="center">Decibell
 
-<p align="center">
+<br>
+<br>
 <img src="./img/decibell.svg">
+
+Instant collaboration between musicians.
+
 </p>
-
-<br>
-<br>
-
-<p align="center">Instant collaboration between musicians.</p>
 
 ## Site
 
@@ -31,22 +30,19 @@ Furthermore, the intention is to attract potential investors or individuals will
 
 ## Screenshots
 
-<p align="center">
-<img src="./img/deci_musicians.webp" width="49%" height="auto">
-</p>
+<img src="./img/deci_musicians.webp">
 
 <br>
 
-<p float="left" align="center">
-<img src="./img/deci_feature.webp" width="49%" height="auto">
-<img src="./img/deci_works.webp" width="49%" height="auto">
-</p>
+<img src="./img/deci_feature.webp">
 
 <br>
 
-<p align="center">
-<img src="./img/deci_testimonial.webp" width="49%" height="auto">
-</p>
+<img src="./img/deci_works.webp">
+
+<br>
+
+<img src="./img/deci_testimonial.webp">
 
 <br>
 
