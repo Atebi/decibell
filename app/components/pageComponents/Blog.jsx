@@ -21,7 +21,7 @@ const BlogPage = () => {
       {/* <Navbar /> */}
 
       {/* Top */}
-      <section className="mb-10 mt-24 px-4 md:mt-28 md:px-8 lg:mt-36 lg:px-14">
+      <section className="mb-10 mt-24 px-4 md:mt-28 md:px-8 lg:px-14">
         <h1
           className={`${comfortaa.variable} mb-0.5 font-comfortaa text-2xl font-bold text-black `}
         >

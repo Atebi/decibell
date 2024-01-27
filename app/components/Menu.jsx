@@ -35,6 +35,7 @@ const Menu = () => {
   const handleLink = (e) => {
     e.preventDefault();
     const href = e.target.href;
+
     router.push(href);
     setIsFocused(false);
   };
@@ -73,10 +74,10 @@ const Menu = () => {
       <div
         ref={menuRef}
         id="menu-default"
-        className={`absolute right-0 top-16 z-10 ${menuVisibility} w-40 bg-whiteShade p-4 shadow-xl md:static md:block md:w-auto md:border-0 md:bg-transparent md:p-0 md:shadow-none`}
+        className={`absolute right-0 top-14 z-10 ${menuVisibility} w-40 bg-whiteShade p-4 shadow-xl md:static md:block md:w-auto md:border-0 md:bg-transparent md:p-0 md:shadow-none`}
       >
         <ul
-          className="flex flex-col gap-2.5 rounded-lg font-medium md:h-full md:flex-row md:items-center md:justify-center md:gap-5 md:text-sm lg:text-base"
+          className="flex flex-col gap-5 rounded-lg font-medium md:h-full md:flex-row md:items-center md:justify-center md:gap-5 md:text-sm lg:text-base"
           aria-labelledby="navBtn"
         >
           <li>
@@ -91,6 +92,7 @@ const Menu = () => {
           <li>
             <a
               className="text-blackish hover:opacity-70 active:opacity-100"
+              onClick={handleLink}
               href="/blog"
             >
               blog
@@ -99,13 +101,18 @@ const Menu = () => {
           <li>
             <a
               className="text-blackish hover:opacity-70 active:opacity-100"
+              onClick={handleLink}
               href="#contact"
             >
               contact
             </a>
           </li>
           <li className="w-fit cursor-default rounded-3xl border-2 border-blackish/80 px-3 py-1 hover:opacity-70 active:opacity-100">
-            <a href="#" className="font-medium text-blackish">
+            <a
+              href="#"
+              className="font-medium text-blackish"
+              onClick={handleLink}
+            >
               Log in
             </a>
           </li>
@@ -113,6 +120,7 @@ const Menu = () => {
             <a
               href="#"
               className="inline-block bg-gradient-primary bg-clip-text text-transparent"
+              onClick={handleLink}
             >
               Sign Up
             </a>

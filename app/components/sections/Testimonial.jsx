@@ -20,10 +20,8 @@ const Testimonial = ({ comfortaa }) => {
         <li className="mr-4 w-60 flex-shrink-0 snap-center snap-always rounded-lg bg-white p-5 shadow-2xl lg:mr-9">
           <span className="mb-3 block">⭐⭐⭐⭐⭐</span>
 
-          <p className="mb-4 min-h-[100px] text-sm text-grey">
-            Decibell has revolutionized the music industry by seamlessly
-            connecting producers, vocalists and songwriters. As someone
-            passionate about efficiency, this app has streamlined our
+          <p className="mb-4 h-[100px] text-sm text-grey">
+            As someone passionate about efficiency, this app has streamlined our
             collaboration process.
           </p>
           <div className="flex items-center gap-1.5">
@@ -71,10 +69,9 @@ const Testimonial = ({ comfortaa }) => {
         <li className="mr-4 w-60 flex-shrink-0 snap-center snap-always rounded-lg bg-white p-5 shadow-2xl lg:mr-9">
           <span className="mb-3 block">⭐⭐⭐⭐⭐</span>
 
-          <p className="mb-4 min-h-[100px] text-sm text-grey">
-            The impact of Decibell on the music industry cannot be overstated.
-            It's a groundbreaking platform that empowers talent, enabling a
-            harmonious blend of producers, vocalists and songwriters.
+          <p className="mb-4 h-[100px] text-sm text-grey">
+            It's a platform that empowers talent, enabling a harmonious blend of
+            producers, vocalists and songwriters.
           </p>
           <div className="flex items-center gap-1.5">
             <div className="relative h-10 w-10 rounded-full bg-blueLightGrey">
@@ -121,11 +118,9 @@ const Testimonial = ({ comfortaa }) => {
         <li className="mr-4 w-60 flex-shrink-0 snap-center snap-always rounded-lg bg-white p-5 shadow-2xl lg:mr-9">
           <span className="mb-3 block">⭐⭐⭐⭐⭐</span>
 
-          <p className="mb-4 min-h-[100px] text-sm text-grey">
-            As an artist, finding the right collaborators is crucial. Decibell
-            has been a game-changer for me, providing a platform where I can
-            easily connect with talented producers and songwriters. It has
-            amplified the quality of my music.
+          <p className="mb-4 h-[100px] text-sm text-grey">
+            It's a platform where I can easily connect with talented producers
+            and songwriters. It has amplified the quality of my music.
           </p>
           <div className="flex items-center gap-1.5">
             <div className="relative h-10 w-10 rounded-full bg-blueLightGrey">
@@ -172,10 +167,9 @@ const Testimonial = ({ comfortaa }) => {
         <li className="mr-4 w-60 flex-shrink-0 snap-center snap-always rounded-lg bg-white p-5 shadow-2xl lg:mr-9">
           <span className="mb-3 block">⭐⭐⭐⭐⭐</span>
 
-          <p className="mb-4 min-h-[100px] text-sm text-grey">
-            I'm all about words and emotions, and Decibell has been my go-to
-            platform for finding the perfect melodies to complement my lyrics.
-            This app bridges the gap between lyricists and musicians.
+          <p className="mb-4 h-[100px] text-sm text-grey">
+            I'm all about words and emotions, This app bridges the gap between
+            lyricists and vocalists.
           </p>
           <div className="flex items-center gap-1.5">
             <div className="relative h-10 w-10 rounded-full bg-blueLightGrey">
@@ -222,11 +216,9 @@ const Testimonial = ({ comfortaa }) => {
         <li className="mr-4 w-60 flex-shrink-0 snap-center snap-always rounded-lg bg-white p-5 shadow-2xl lg:mr-9">
           <span className="mb-3 block">⭐⭐⭐⭐⭐</span>
 
-          <p className="mb-4 min-h-[100px] text-sm text-grey">
+          <p className="mb-4 h-[100px] text-sm text-grey">
             As a CEO in the music business, finding a platform that effortlessly
-            brings together talent like this app does is a dream come true. It's
-            a powerhouse that facilitates the creation of remarkable musical
-            masterpieces.
+            brings together talent like this app does is a dream come true.
           </p>
           <div className="flex items-center gap-1.5">
             <div className="relative h-10 w-10 rounded-full bg-blueLightGrey">
@@ -273,11 +265,9 @@ const Testimonial = ({ comfortaa }) => {
         <li className="mr-4 w-60 flex-shrink-0 snap-center snap-always rounded-lg bg-white p-5 shadow-2xl lg:mr-9">
           <span className="mb-3 block">⭐⭐⭐⭐⭐</span>
 
-          <p className="mb-4 min-h-[100px] text-sm text-grey">
-            Decibell has been instrumental in expanding our musical horizons.
-            Connecting with talented producers and lyricists has unlocked doors
-            to unique opportunities. It's a platform that nutures creativity and
-            fuels the passion for making music.
+          <p className="mb-4 h-[100px] text-sm text-grey">
+            Connecting with talented producers and lyricists has expanded our
+            musical horizons, unlocking doors to unique opportunities.
           </p>
           <div className="flex items-center gap-1.5">
             <div className="relative h-10 w-10 rounded-full bg-blueLightGrey">

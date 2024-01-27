@@ -1,13 +1,11 @@
 <img src="./img/deci_hero.webp">
 
-# <p align="center">Decibell
+# <p align="center">Decibell</p>
 
-<br>
-<br>
+<p align="center">
 <img src="./img/decibell.svg">
-
+<br>
 Instant collaboration between musicians.
-
 </p>
 
 ## Site
