@@ -12,6 +12,10 @@ Instant collaboration between musicians.
 
 Visit decibell's landing page [here](https://decibell.vercel.app)
 
+## Figma
+
+Check out the design [here](https://www.figma.com/proto/7ZeLieWJ9wg9txKCZY5NqI/Decibell?type=design&node-id=32-1120&t=1oku1wgVt64PB96v-0&scaling=min-zoom&starting-point-node-id=755%3A4065).
+
 ## Case Study
 
 Learn more about Decibell - [case study](https://pixelayo.vercel.app/ayo/case-study/decibell).
