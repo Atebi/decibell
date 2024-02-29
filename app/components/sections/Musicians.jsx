@@ -3,9 +3,12 @@ import Image from "next/image";
 
 const Musicians = ({ comfortaa }) => {
   return (
-    <section className="mt-12 flex flex-wrap justify-center gap-6 px-5 text-center md:gap-9 md:px-10 ">
+    <section
+      data-aos="fade-up"
+      className="mt-12 flex flex-wrap justify-center gap-6 px-5 text-center md:gap-9 md:px-10 "
+    >
       {/** */}
-      <div>
+      <div data-aos="fade-up">
         <div className="mx-auto h-fit max-w-xs rounded-3xl bg-grey p-1">
           <Image
             src="/producer.webp"
@@ -36,7 +39,7 @@ const Musicians = ({ comfortaa }) => {
       </div>
 
       {/** */}
-      <div>
+      <div data-aos="fade-up">
         <div className="mx-auto h-fit max-w-xs rounded-3xl bg-darkBlue p-1">
           <Image
             src="/singer.webp"
@@ -67,7 +70,7 @@ const Musicians = ({ comfortaa }) => {
       </div>
 
       {/** */}
-      <div className="">
+      <div data-aos="fade-up">
         <div className="mx-auto h-fit max-w-xs rounded-3xl bg-blueLightGrey p-1">
           <Image
             src="/songwriter.webp"

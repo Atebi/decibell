@@ -11,7 +11,10 @@ const LandingPage = () => {
   return (
     <>
       <main className="relative grid min-h-screen place-items-center bg-whiteShade px-4">
-        <div className="t0p-0 hero absolute right-0 z-10 h-full w-full">
+        <div
+          data-aos="fade-in"
+          className="t0p-0 hero absolute right-0 z-10 h-full w-full"
+        >
           <Image
             src={hero}
             fill={true}
@@ -48,6 +51,7 @@ const LandingPage = () => {
       {/*Intro to musicians */}
       <section className="mt-12 md:mt-20 xl:mt-24">
         <p
+          data-aos="fade-up"
           className={`${dancing_Script.className} text-center text-2xl font-bold text-black md:text-4xl`}
         >
           For the{" "}
@@ -55,7 +59,10 @@ const LandingPage = () => {
             love of music
           </span>
         </p>
-        <p className={`text-center text-base text-grey`}>
+        <p
+          data-aos="fade-up"
+          className={`delay-400 text-center text-base text-grey`}
+        >
           Find, chat and collaborate with...
         </p>
       </section>
@@ -64,9 +71,12 @@ const LandingPage = () => {
       <Musicians comfortaa={comfortaa.variable} />
 
       {/* Features */}
-      <section className="mt-16 flex flex-wrap items-center justify-center gap-6 px-5 text-center md:mt-20 md:gap-20 md:px-10 md:text-left xl:mt-32">
+      <section
+        data-aos="fade-up"
+        className="mt-16 flex flex-wrap items-center justify-center gap-6 px-5 text-center md:mt-20 md:gap-20 md:px-10 md:text-left xl:mt-32"
+      >
         {/** */}
-        <div className="h-fit bg-gradient-primary">
+        <div data-aos="fade-right" className="h-fit bg-gradient-primary">
           <Image
             src="/chat.webp"
             // fill={true}
@@ -82,7 +92,7 @@ const LandingPage = () => {
             quality={100}
           />
         </div>
-        <div className="w-72">
+        <div data-aos="fade-left" className="w-72">
           <h2
             className={`${comfortaa.variable} mb-4 font-comfortaa text-2xl font-bold text-black md:text-3xl`}
           >
@@ -102,7 +112,10 @@ const LandingPage = () => {
       <Carousel comfortaa={comfortaa.variable} />
 
       {/* Intro to Testimonial */}
-      <div className="mx-auto mb-3 mt-20 block max-w-xs px-5 text-center text-sm font-medium text-blackish md:mx-0 md:max-w-xl md:px-8 md:text-left lg:mt-24 lg:px-14 xl:max-w-xl xl:text-base">
+      <div
+        data-aos="fade-up"
+        className="mx-auto mb-3 mt-20 block max-w-xs px-5 text-center text-sm font-medium text-blackish md:mx-0 md:max-w-xl md:px-8 md:text-left lg:mt-24 lg:px-14 xl:max-w-xl xl:text-base"
+      >
         <p>
           Whether you are part of the{" "}
           <span className="text-grey">creative process</span>, a potential

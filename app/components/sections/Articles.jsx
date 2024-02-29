@@ -8,7 +8,10 @@ import Button from "../Button";
 
 const Articles = () => {
   return (
-    <section className="relative grid grid-cols-1 gap-3 px-4 md:grid-cols-2 md:px-8 lg:gap-5 lg:gap-y-6 lg:px-14 xl:grid-cols-3">
+    <section
+      data-aos="fade-up"
+      className="relative grid grid-cols-1 gap-3 px-4 md:grid-cols-2 md:px-8 lg:gap-5 lg:gap-y-6 lg:px-14 xl:grid-cols-3"
+    >
       {/* Card-1 */}
       <a
         href="/article"

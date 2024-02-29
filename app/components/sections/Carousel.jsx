@@ -5,7 +5,10 @@ const Carousel = ({ comfortaa }) => {
   // const [isActive, setIsActive] = useState(false);
   // const colour = isActive ? "bg-gradient-primary" : "bg-transparent";
   return (
-    <section className="mt-20 w-full overflow-hidden text-center md:mt-32 lg:mt-32">
+    <section
+      data-aos="fade-up"
+      className="mt-20 w-full overflow-hidden text-center md:mt-32 lg:mt-32"
+    >
       <h2
         className={`${comfortaa} mb-6 font-comfortaa text-2xl font-bold text-black underline md:text-3xl lg:mb-7`}
       >

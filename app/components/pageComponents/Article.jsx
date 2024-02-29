@@ -15,13 +15,19 @@ const Article = () => {
   return (
     <>
       {/* Top section */}
-      <section className="mx-auto mt-24 block max-w-xl px-7 md:mt-32 lg:mt-36 lg:max-w-3xl">
+      <section
+        data-aos="fade-up"
+        className="mx-auto mt-24 block max-w-xl px-7 md:mt-32 lg:mt-36 lg:max-w-3xl"
+      >
         <h1
           className={`${comfortaa.variable} mb-4 font-comfortaa text-2xl font-bold text-black `}
         >
           Decibell - The must use platform for artists.
         </h1>
-        <div className="flex items-center gap-2 text-xs text-grey md:tracking-wider lg:text-sm">
+        <div
+          data-aos="fade-in"
+          className="flex items-center gap-2 text-xs text-grey md:tracking-wider lg:text-sm"
+        >
           <div className="relative h-9 w-9 rounded-full bg-darkBlue">
             <Image
               src="/omar.webp"
@@ -45,7 +51,10 @@ const Article = () => {
       </section>
 
       {/* Article Image */}
-      <div className="relative mx-auto my-10 block max-w-4xl px-5 md:px-8 lg:my-14">
+      <div
+        data-aos="fade-up"
+        className="relative mx-auto my-10 block max-w-4xl px-5 md:px-8 lg:my-14"
+      >
         <Image
           src={decibellHero}
           alt="decibell hero image"
@@ -60,7 +69,10 @@ const Article = () => {
       </div>
 
       {/* Article section */}
-      <article className="mx-auto flex max-w-xl flex-col items-start gap-6 px-7 text-sm leading-7 tracking-wider text-black lg:max-w-3xl lg:text-base lg:leading-8">
+      <article
+        data-aos="fade-up"
+        className="mx-auto flex max-w-xl flex-col items-start gap-6 px-7 text-sm leading-7 tracking-wider text-black lg:max-w-3xl lg:text-base lg:leading-8"
+      >
         <p>
           One morning, when Gregor Samsa woke from troubled dreams, he found
           himself transformed in his bed into a horrible vermin.

@@ -4,7 +4,7 @@ import { HiArrowNarrowRight, HiArrowNarrowLeft } from "react-icons/hi";
 const Testimonial = ({ comfortaa }) => {
   return (
     // <div>testi</div>
-    <section className="relative mb-7">
+    <section data-aos="fade-up" className="relative mb-7">
       {/** */}
 
       {/** cardSlide */}

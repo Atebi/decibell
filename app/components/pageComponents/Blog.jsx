@@ -13,15 +13,11 @@ const BlogPage = () => {
 
   return (
     <>
-      {/* <style jsx global>{`
-    body {
-      background: "#f2f2f2";
-    }
-  `}</style> */}
-      {/* <Navbar /> */}
-
       {/* Top */}
-      <section className="mb-10 mt-24 px-4 md:mt-28 md:px-8 lg:px-14">
+      <section
+        data-aos="fade-up"
+        className="mb-10 mt-24 px-4 md:mt-28 md:px-8 lg:px-14"
+      >
         <h1
           className={`${comfortaa.variable} mb-0.5 font-comfortaa text-2xl font-bold text-black `}
         >
