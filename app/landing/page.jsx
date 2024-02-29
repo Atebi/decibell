@@ -73,7 +73,7 @@ const LandingPage = () => {
       {/* Features */}
       <section
         data-aos="fade-up"
-        className="mt-16 flex flex-wrap items-center justify-center gap-6 px-5 text-center md:mt-20 md:gap-20 md:px-10 md:text-left xl:mt-32"
+        className="mt-16 flex flex-wrap items-center justify-center gap-6 overflow-hidden px-5 text-center md:mt-20 md:gap-20 md:px-10 md:text-left xl:mt-32"
       >
         {/** */}
         <div data-aos="fade-right" className="h-fit bg-gradient-primary">
